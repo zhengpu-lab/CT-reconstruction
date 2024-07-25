@@ -1,0 +1,10 @@
+clc;
+close all;
+clear;
+I = phantom(256);
+theta = 0:179;
+P = radon(I,theta);
+figure;
+imshow(I,[]);
+figure;
+imagesc(P),colormap(gray),colorbar,title('180°平行束投影图像');

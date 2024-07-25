@@ -1,0 +1,20 @@
+clc
+close all
+clear
+N=256;
+I=phantom(N);
+SOD=250;
+delta_gamma1=2;
+delta_gamma2=1;
+delta_gamma3=0.25;
+R1=fanbeam(I,SOD,'FanSensorSpacing',delta_gamma1);
+R2=fanbeam(I,SOD,'FanSensorSpacing',delta_gamma2);
+R3=fanbeam(I,SOD,'FanSensorSpacing',delta_gamma3);
+rec1=ifanbeam(R1,SOD,'FanSensorSpacing',delta_gamma1);
+rec2=ifanbeam(R2,SOD,'FanSensorSpacing',delta_gamma2);
+rec3=ifanbeam(R3,SOD,'FanSensorSpacing',delta_gamma3);
+figure;
+subplot(2,2,1),imshow(I,[0,1]),xlabel('(a)256×256头模型（原始图像）');
+subplot(2,2,2),imshow(rec1,[0,1]),xlabel('(b)扇束重建图像（等角间隔为2）');
+subplot(2,2,3),imshow(rec2,[0,1]),xlabel('(c)扇束重建图像（等角间隔为1）');
+subplot(2,2,4),imshow(rec3,[0,1]),xlabel('(d)扇束重建图像（等角间隔为0.25）');

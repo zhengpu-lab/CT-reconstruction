@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="S_L_model.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ParallelBeamForwardProjection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PBFP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="medfuncParallelBeamForwardProjection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="func.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="try.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectBackprojection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="medfuncBackprojection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PB_FBP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="medfuncRlfilterfunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="medfuncSlfilterfunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="medfuncRLfilteredbackprojection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="medfuncSLfilteredbackprojection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="norm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fanbeamangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="medfuncFanBeamAngleForwardProjection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FBA_FBP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="medfuncFanBeamRlfilter1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="medfuncFanBeamAngleFBP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fanbeamdistance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="medfuncFanBeamDistanceForwardProjection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FBD_FBP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="medfuncFanBeamRlfilter2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="medfuncFanBeamDistanceFBP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FBAresorting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="medfuncFanBeamAngleResorting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3Dforwardprojection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="medfunc3Dforwardprojection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="medfuncFDK.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="func.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

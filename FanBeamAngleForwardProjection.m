@@ -1,0 +1,12 @@
+clc;
+close all;
+clear;
+N=256;
+SOD=250;
+delta_gamma=0.25;
+I=phantom(N);
+P=fanbeam(I,SOD,'FanSensorSpacing',delta_gamma);
+figure;
+imshow(I,[0 1]);
+figure;
+imagesc(P),colormap(gray),colorbar;

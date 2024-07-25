@@ -1,0 +1,11 @@
+clc;
+close all;
+clear;
+I=phantom(256);
+theta=0:179;
+P=radon(I,theta);
+rec=iradon(P,theta,'None');
+figure;
+imshow(I,[]),title('原始图像');
+figure;
+imshow(rec,[]),title('直接反投影图像');

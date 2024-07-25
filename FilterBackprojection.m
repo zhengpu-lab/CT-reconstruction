@@ -1,0 +1,15 @@
+clc;
+close all;
+clear;
+N=256;
+I=phantom(N);
+theta=0:179;
+P=radon(I,theta);
+rec=iradon(P,theta,'linear','None');
+rec_RL=iradon(P,theta,'linear','Ram-Lak');
+rec_SL=iradon(P,theta,'linear','Shepp-Logan');
+figure;
+subplot(2,2,1),imshow(I),title('原始图像');
+subplot(2,2,2),imshow(rec,[]),title('直接反投影重建图像');
+subplot(2,2,3),imshow(rec_RL,[]),title('R-L反投影重建图像');
+subplot(2,2,4),imshow(rec_SL,[]),title('S-L反投影重建图像');
